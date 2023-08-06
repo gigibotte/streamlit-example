@@ -14,7 +14,6 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
-st.beta_set_page_config(layout="wide")
 
 with open('results_X2_el.html', 'r') as file:
     html_content = file.read()
