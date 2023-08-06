@@ -14,6 +14,9 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+with open('results_X2_el.html', 'r') as file:
+    html_content = file.read()
+st.components.v1.html(html_content)
 
 
 with st.echo(code_location='below'):
